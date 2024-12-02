@@ -16,7 +16,6 @@ fn parse_input(input: &str) -> (Vec<usize>, Vec<usize>) {
     let mut locations2 = vec![];
 
     for line in input.lines() {
-        println!("{}", line);
         let mut split = line.split_whitespace();
         locations1.push(split.next().expect("can't convert").parse::<usize>().unwrap());
         locations2.push(split.next().expect("can't convert").parse::<usize>().unwrap());
