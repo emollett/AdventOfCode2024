@@ -4,7 +4,7 @@ use std::fs::read_to_string;
 ///////////////////////////////////////////////////////////////////////////////
 
 pub fn solve() -> SolutionPair {
-    let input = include_str!("day01.txt");
+    let input = include_str!("input.txt");
     let sol1 = get_distance(input);
     let sol2 = get_frequency_score(input);
 

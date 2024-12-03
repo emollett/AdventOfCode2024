@@ -45,3 +45,6 @@ Cargo.lock
 /.idea/codeStyles/codeStyleConfig.xml
 /.idea/misc.xml
 /.idea/modules.xml
+
+
+/src/days/input.txt
